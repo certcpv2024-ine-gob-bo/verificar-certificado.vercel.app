@@ -1,0 +1,10 @@
+.logo-light {
+    display: block;
+    height: 60px;
+    margin: 0 auto;
+}
+
+#map {
+    height: 500px;
+    width: 100%;
+}

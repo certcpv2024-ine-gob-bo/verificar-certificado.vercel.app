@@ -1,0 +1,167 @@
+.app-brand.base.me-4 {
+    margin: 0 auto !important;
+}
+
+.light-style .menu .app-brand.base {
+    height: 64px;
+}
+
+.dark-style .menu .app-brand.base {
+    height: 64px;
+}
+
+.container-xxl #navbar-collapse {
+    display: none !important;
+}
+
+.app-brand-logo.base img, .logo-movil {
+    width: auto;
+    height: 60px;
+}
+
+.app-brand-text.base {
+    font-size: 1.25rem;
+}
+
+#layout-menu .menu-inner {
+    align-items: center;
+    justify-content: center;
+}
+
+.layout-navbar-fixed .layout-wrapper:not(.layout-without-menu) .layout-page {
+    padding-top: 64px !important;
+}
+
+.content-wrapper .navbar {
+    z-index: auto;
+}
+
+.toast {
+    background-color: #030303;
+}
+
+.toast-success {
+    background-color: #559f5c;
+}
+
+.toast-error {
+    background-color: #dc4d57;
+}
+
+.toast-info {
+    background-color: #26c6f9;
+}
+
+.toast-warning {
+    background-color: #f07f3f;
+}
+
+.menu-loading {
+    /*color: inherit;*/
+}
+
+.btn-loading {
+    /*color: inherit;*/
+}
+
+.select-loading {
+    /*color: inherit;*/
+}
+
+.text-depto {
+    color: #9E78C1 !important;
+}
+
+.bg-depto {
+    background-color: #9E78C1;
+    color: white;
+}
+.bg-label-depto {
+    background-color: #FFFFFF;
+    color: #9E78C1;
+}
+
+.text-utc {
+    color: #000000 !important;
+}
+
+.bg-utc {
+    background-color: #000000;
+    color: white;
+}
+.bg-label-utc {
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+.text-area {
+    color: #25D02A !important;
+}
+
+.bg-area {
+    background-color: #25D02A;
+    color: #DCFFDD;
+}
+.bg-label-area {
+    background-color: #DCFFDD;
+    color: #25D02A;
+}
+
+.text-zona {
+    color: #E90EF1 !important;
+}
+
+.bg-zona {
+    background-color: #E90EF1;
+    color: #FFDBFF;
+}
+
+.bg-label-zona {
+    background-color: #FFDBFF;
+    color: #E90EF1;
+}
+
+.text-sector, .text-sec {
+    color: #383BC6 !important;
+}
+
+.bg-sector, .bg-sec {
+    background-color: #383BC6;
+    color: #DBDBFF;
+}
+
+.bg-label-sector, .bg-label-unico {
+    background-color: #DBDBFF;
+    color: #383BC6;
+}
+
+.text-segmento {
+    color: #D6201F !important;
+}
+
+.bg-segmento {
+    background-color: #D6201F;
+    color: #FFE7E8;
+}
+
+.bg-label-segmento {
+    background-color: #FFE7E8;
+    color: #D6201F;
+}
+
+@media only screen and (max-width: 768px) {
+    .container-xxl #navbar-collapse {
+        display: inline !important;
+    }
+
+    #layout-menu .menu-inner {
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+}
+
+@media (min-width: 1200px) {
+    .layout-menu-fixed .layout-horizontal .layout-page .menu-horizontal + [class*="container-"], .layout-menu-fixed-offcanvas .layout-horizontal .layout-page .menu-horizontal + [class*="container-"] {
+        padding-top: 4rem !important;
+    }
+}
